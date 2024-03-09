@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Font.DMSan" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fontFamily">@font/dmsans_regular</item>
+    </style>
+
+    <style name="Font.DMSan.300" parent="Font.DMSan">
+        <item name="fontFamily">@font/dmsans_light</item>
+    </style>
+
+    <style name="Font.DMSan.400" parent="Font.DMSan">
+        <item name="fontFamily">@font/dmsans_regular</item>
+    </style>
+
+    <style name="Font.DMSan.500" parent="Font.DMSan">
+        <item name="fontFamily">@font/dmsans_medium</item>
+    </style>
+
+    <style name="Font.DMSan.600" parent="Font.DMSan">
+        <item name="fontFamily">@font/dmsans_semibold</item>
+    </style>
+
+    <style name="Font.DMSan.700" parent="Font.DMSan">
+        <item name="fontFamily">@font/dmsans_bold</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvSuggestion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_8"
+    android:layout_marginEnd="@dimen/space_6"
+    android:background="@drawable/rate_bg_black_corner_8"
+    android:backgroundTint="@color/clr_rate_background"
+    android:paddingVertical="@dimen/space_6"
+    android:paddingHorizontal="@dimen/space_12"
+    android:textAppearance="@style/Font.DMSan.500"
+    android:textColor="@color/clr_text"
+    android:textSize="@dimen/text_size_14"
+    tools:text="Merge PDF" />

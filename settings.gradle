@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ModuleRateSample"
 include ':app'
+include ':rates'

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Upload photos</string>
+    <string name="str_rate_submit">Submit</string>
+    <string name="str_rate_feedback_content_hint">Enter your feedback here! (min %1$d characters)</string>
+    <string name="str_rate_feedback_description">Found a bug? Have a suggestion? Fill out the form below and we’ll take a look!</string>
+    <string name="str_rate_feedback_title">Send us some feedback!</string>
+    <string name="str_rate_rate_app_title">Do you like the app?</string>
+    <string name="str_rate_rate_description">We’d greatly appreciate if you can rate us</string>
+    <string name="str_rate_give_us_5_stars">Give us 5 stars</string>
+    <string name="str_rate_rate_us">Rate us</string>
+    <string name="str_rate_feedback_content_require">You content feedback need min %1$d characters</string>
+    <string name="str_rate_rating_description_default">We’d greatly appreciate if you can rate us</string>
+    <string name="str_rate_oh_no">Oh, no!</string>
+    <string name="str_rate_we_like_you_too">We like you too!</string>
+    <string name="str_rate_rating_description_low">Please leave us some feedback</string>
+    <string name="str_rate_rating_description_high">Thanks for your feedback</string>
+    <string name="str_rate_rate_on_google_play">Rate on Google Play</string>
+    <string name="str_rate_crashes_bugs">Crashes &amp; Bugs</string>
+    <string name="str_rate_others">Others</string>
+    <string name="str_rate_suggestion">Suggestion</string>
+    <string name="str_rate_question_show_rate">Do you think this App is helpful?</string>
+    <string name="str_rate_can_not_show_rate">No.Not Really</string>
+    <string name="str_rate_confirm_show_rate">Yes. I liked it</string>
+    <string name="str_rate_content_rate_1_star">We\'ll cry</string>
+    <string name="str_rate_content_rate_2_star">So sad</string>
+    <string name="str_rate_content_rate_3_star">We\'ll improve our app</string>
+    <string name="str_rate_content_rate_4_star">We will try to gain your 5*</string>
+    <string name="str_rate_content_rate_5_star">Thanks for your feedback</string>
+    <string name="str_rate_content_tag_rating">Crashes &amp; Bugs, Error feature, Too many ads, Other</string>
+
+</resources>

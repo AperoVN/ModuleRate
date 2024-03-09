@@ -1,0 +1,87 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'maven-publish'
+}
+
+android {
+    namespace 'com.apero.rates'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 21
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+publishing {
+    publications {
+        aar(MavenPublication) {
+            artifactId "module.rate"
+            artifact "${project.buildDir}/outputs/aar/rates-release.aar"
+            //The publication doesn't know about our dependencies, so we have to manually add them to the pom
+            pom {
+                // Old artifact coordinates
+                groupId = "apero"
+                artifactId = "module.rate"
+                version = "1.0.0"
+            }
+        }
+    }
+    repositories {
+        maven {
+            url 'https://artifactory.apero.vn/artifactory/gradle-release/'
+            credentials {
+                username "deployer"
+                password "apero@123"
+            }
+        }
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'com.airbnb.android:lottie:6.2.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
+    implementation 'com.google.android.play:review:2.0.1'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    kapt 'com.github.bumptech.glide:compiler:4.15.1'
+    implementation "apero-inhouse:apero-ads:6.5.4"
+    implementation platform('com.google.firebase:firebase-bom:31.0.1')
+    implementation "com.google.firebase:firebase-config"
+    implementation "com.google.firebase:firebase-analytics"
+
+}
