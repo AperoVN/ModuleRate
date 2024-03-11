@@ -22,6 +22,12 @@ object ModuleRate {
         Analytics.install(application)
     }
 
+    fun install(application: Application, versionCode: Int, versionName: String){
+        install(application)
+        this.VERSION_CODE = versionCode
+        this.VERSION_NAME = versionName
+    }
+
     fun showRate(fm: FragmentManager, resultListener: (isRated: Boolean) -> Unit) {
         ChooseRateBottomSheet()
             .setOnShowRateListener { isSatisfied ->
