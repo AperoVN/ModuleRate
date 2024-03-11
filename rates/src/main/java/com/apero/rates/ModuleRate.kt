@@ -52,4 +52,8 @@ object ModuleRate {
     fun syncWithRemoteConfig(remoteConfig: FirebaseRemoteConfig) {
         RemoteRateConfiguration.getInstance().sync(remoteConfig)
     }
+
+    fun getFeedbackClazz(): Class<*> {
+        return FeedbackActivity::class.java
+    }
 }
