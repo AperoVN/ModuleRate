@@ -16,6 +16,10 @@ Fetch remote config:
 ```
   ModuleRate.syncWithRemoteConfig(remoteConfig)
 ```
+Change Color App
+```
+  <color name="clr_rate_primary">@color/clr_primary</color>
+```
 Show Rate App:
 ```
   ModuleRate.showRate(supportFragmentManager) {
