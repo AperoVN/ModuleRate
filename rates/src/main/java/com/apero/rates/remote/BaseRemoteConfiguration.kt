@@ -5,10 +5,8 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.annotation.StringRes
 import androidx.core.content.edit
-import com.apero.rates.BuildConfig
 import com.apero.rates.model.UiText
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
-import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 
 /**
  * Created by KO Huyn on 25/09/2023.
