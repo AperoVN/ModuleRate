@@ -90,8 +90,6 @@ internal class RateAppDialog : BaseDialogBinding<RateDialogRateAppBinding>() {
             if (rate > 0) {
                 if (rate > 3) {
                     reviewApp {
-                        if (it) {
-                        }
                         invokeSuccess(it)
                     }
                 } else {

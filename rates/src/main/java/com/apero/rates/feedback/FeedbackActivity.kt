@@ -26,10 +26,6 @@ import com.apero.rates.ext.disableAdResumeByClickAction
 import com.apero.rates.feedback.adapter.MediaAdapter
 import com.apero.rates.feedback.adapter.SuggestionAdapter
 import com.apero.rates.model.ItemMedia
-import com.google.android.flexbox.FlexDirection
-import com.google.android.flexbox.FlexWrap
-import com.google.android.flexbox.FlexboxLayoutManager
-import com.google.android.flexbox.JustifyContent
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn

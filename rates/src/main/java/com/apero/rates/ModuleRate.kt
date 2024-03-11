@@ -15,6 +15,7 @@ object ModuleRate {
     private var hasInitialized = false
     internal var VERSION_NAME: String? = null
     internal var VERSION_CODE: Int? = null
+    internal var onDismissAppOpenListener: () -> Unit = {}
     fun install(application: Application) {
         if (hasInitialized) return
         hasInitialized = true
@@ -26,6 +27,10 @@ object ModuleRate {
         install(application)
         this.VERSION_CODE = versionCode
         this.VERSION_NAME = versionName
+    }
+
+    fun setOnDismissAppOpenListener(onDismissAppOpenListener: () -> Unit) = apply {
+        this.onDismissAppOpenListener = onDismissAppOpenListener
     }
 
     fun showRate(fm: FragmentManager, resultListener: (isRated: Boolean) -> Unit) {
