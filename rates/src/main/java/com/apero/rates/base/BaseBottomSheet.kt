@@ -39,7 +39,7 @@ abstract class BaseBottomSheet<T : ViewBinding> : BottomSheetDialogFragment() {
         val dialog = super.onCreateDialog(savedInstanceState) as BottomSheetDialog
         dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
         dialog.setOnShowListener {
-            dialog.findViewById<View?>(R.id.design_bottom_sheet)?.let { container ->
+            dialog.findViewById<View?>(com.google.android.material.R.id.design_bottom_sheet)?.let { container ->
                 container.post {
                     if (container is FrameLayout) {
                         BottomSheetBehavior.from(container).apply {
