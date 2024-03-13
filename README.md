@@ -1,7 +1,7 @@
 # ModuleRate
 ## How to use
 ```
-  implementation 'apero:module.rate:1.0.1'
+  implementation 'apero:module.rate:1.0.3'
 ```
 
 Application:
