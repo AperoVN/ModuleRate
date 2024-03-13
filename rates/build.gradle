@@ -47,7 +47,7 @@ publishing {
                 // Old artifact coordinates
                 groupId = "apero"
                 artifactId = "module.rate"
-                version = "1.0.2"
+                version = "1.0.3"
             }
         }
     }
