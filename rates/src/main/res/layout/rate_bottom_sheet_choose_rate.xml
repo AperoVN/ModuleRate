@@ -6,16 +6,18 @@
     android:background="@drawable/rate_background_top_radius_24"
     android:padding="@dimen/space_16">
 
-    <androidx.appcompat.widget.AppCompatImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lavCanRate"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/img_rate_us"
-        app:layout_constraintDimensionRatio="217:135"
+        app:layout_constraintDimensionRatio="133:133"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.7" />
+        app:layout_constraintWidth_percent="0.4"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="lottie/choose_rate_app.json"
+        app:lottie_loop="true" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivClose"
@@ -48,8 +50,8 @@
         android:layout_marginEnd="@dimen/space_8"
         android:background="@drawable/rate_bg_button_rate_selector"
         android:drawableTop="@drawable/ic_rate_unsatisfied"
-        android:drawablePadding="@dimen/space_8"
         android:gravity="center"
+        android:lines="2"
         android:padding="@dimen/space_8"
         android:text="@string/str_rate_can_not_show_rate"
         android:textAppearance="@style/Font.DMSan.500"
@@ -67,7 +69,7 @@
         android:layout_marginTop="@dimen/space_16"
         android:background="@drawable/rate_bg_button_rate_selector"
         android:drawableTop="@drawable/ic_rate_satisfied"
-        android:drawablePadding="@dimen/space_8"
+        android:lines="2"
         android:gravity="center"
         android:padding="@dimen/space_8"
         android:text="@string/str_rate_confirm_show_rate"

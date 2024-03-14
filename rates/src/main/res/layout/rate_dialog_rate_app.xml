@@ -57,10 +57,9 @@
             android:textAppearance="@style/Font.DMSan.400"
             android:textColor="@color/clr_rate_primary"
             android:textSize="@dimen/text_size_12"
-            app:layout_constraintBottom_toTopOf="@id/ivBestWay"
             app:layout_constraintEnd_toStartOf="@id/ivBestWay"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvMessage" />
+            app:layout_constraintTop_toBottomOf="@id/tvMessage"/>
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivBestWay"
