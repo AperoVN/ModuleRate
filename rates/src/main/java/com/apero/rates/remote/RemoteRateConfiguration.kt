@@ -39,7 +39,7 @@ class RemoteRateConfiguration : BaseRemoteConfiguration() {
 
     private object StarVoteOnStore : RemoteKeys.LongKey(
         "star_vote_on_store",
-        4
+        5
     )
 
     private object ContentRate1Star : RemoteKeys.UiTextKey("content_rate_1_star", R.string.str_rate_content_rate_1_star)
