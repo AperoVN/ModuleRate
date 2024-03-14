@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Fotoğrafları Yükle</string>
+    <string name="str_rate_submit">Gönder</string>
+    <string name="str_rate_feedback_content_hint">Geri bildiriminizi buraya girin! (en az %1$d karakter)</string>
+    <string name="str_rate_feedback_description">Bir hata buldunuz mu? Bir öneriniz mi var? Aşağıdaki formu doldurun ve bir göz atalım!</string>
+    <string name="str_rate_feedback_title">Bize geri bildirim gönderin!</string>
+    <string name="str_rate_rate_app_title">Uygulamayı beğeniyor musunuz?</string>
+    <string name="str_rate_rate_description">Bize puan verebilirseniz çok memnun oluruz</string>
+    <string name="str_rate_give_us_5_stars">Alabileceğimiz en iyi şey :”></string>
+    <string name="str_rate_rate_us">Bizi değerlendirin</string>
+    <string name="str_rate_feedback_content_require">Geri bildiriminiz en az %1$d karakter içermelidir</string>
+    <string name="str_rate_rating_description_default">Bize puan verebilirseniz çok memnun oluruz</string>
+    <string name="str_rate_oh_no">Oh, hayır!</string>
+    <string name="str_rate_thank_you">Teşekkür ederim!</string>
+    <string name="str_rate_love_you_so_much">Seni çok seviyorum!</string>
+    <string name="str_rate_rating_description_low">Lütfen bize bir geri bildirim bırakın</string>
+    <string name="str_rate_rating_description_high">Geri bildiriminiz için teşekkürler</string>
+    <string name="str_rate_rate_on_google_play">Google Play\'de Değerlendir</string>
+    <string name="str_rate_crashes_bugs">Çökmeler ve Hatalar</string>
+    <string name="str_rate_others">Diğerleri</string>
+    <string name="str_rate_suggestion">Öneri</string>
+    <string name="str_rate_question_show_rate">Bu Uygulama faydalı mı buluyorsunuz?</string>
+    <string name="str_rate_can_not_show_rate">Hayır. Gerçekten değil</string>
+    <string name="str_rate_confirm_show_rate">Evet. Beğendim</string>
+    <string name="str_rate_content_rate_1_star">Ağlayacağız</string>
+    <string name="str_rate_content_rate_2_star">Çok üzgün</string>
+    <string name="str_rate_content_rate_3_star">Uygulamamızı geliştireceğiz</string>
+    <string name="str_rate_content_rate_4_star">5 yıldızınızı kazanmaya çalışacağız</string>
+    <string name="str_rate_content_rate_5_star">Geri bildiriminiz için teşekkürler</string>
+    <string name="str_rate_content_tag_rating">Çökmeler ve Hatalar, Hata özellik, Çok fazla reklam, Diğerleri</string>
+
+</resources>

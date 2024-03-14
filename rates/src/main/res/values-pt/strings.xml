@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Carregar fotos</string>
+    <string name="str_rate_submit">Enviar</string>
+    <string name="str_rate_feedback_content_hint">Digite seu feedback aqui! (mínimo de %1$d caracteres)</string>
+    <string name="str_rate_feedback_description">Encontrou um bug? Tem uma sugestão? Preencha o formulário abaixo e vamos dar uma olhada!</string>
+    <string name="str_rate_feedback_title">Nos envie algum feedback!</string>
+    <string name="str_rate_rate_app_title">Você gosta do aplicativo?</string>
+    <string name="str_rate_rate_description">Nós apreciaríamos muito se você pudesse nos avaliar</string>
+    <string name="str_rate_give_us_5_stars">O melhor que podemos obter :”></string>
+    <string name="str_rate_rate_us">Avalie-nos</string>
+    <string name="str_rate_feedback_content_require">Seu feedback precisa de no mínimo %1$d caracteres</string>
+    <string name="str_rate_rating_description_default">Nós apreciaríamos muito se você pudesse nos avaliar</string>
+    <string name="str_rate_oh_no">Oh, não!</string>
+    <string name="str_rate_thank_you">Obrigado!</string>
+    <string name="str_rate_love_you_so_much">Te amamos muito!</string>
+    <string name="str_rate_rating_description_low">Por favor, nos deixe algum feedback</string>
+    <string name="str_rate_rating_description_high">Obrigado pelo seu feedback</string>
+    <string name="str_rate_rate_on_google_play">Avalie no Google Play</string>
+    <string name="str_rate_crashes_bugs">Crashes &amp; Bugs</string>
+    <string name="str_rate_others">Outros</string>
+    <string name="str_rate_suggestion">Sugestão</string>
+    <string name="str_rate_question_show_rate">Você acha que este Aplicativo é útil?</string>
+    <string name="str_rate_can_not_show_rate">Não. Não realmente</string>
+    <string name="str_rate_confirm_show_rate">Sim. Eu gostei</string>
+    <string name="str_rate_content_rate_1_star">Nós vamos chorar</string>
+    <string name="str_rate_content_rate_2_star">Tão triste</string>
+    <string name="str_rate_content_rate_3_star">Nós vamos melhorar nosso aplicativo</string>
+    <string name="str_rate_content_rate_4_star">Nós vamos tentar ganhar suas 5*</string>
+    <string name="str_rate_content_rate_5_star">Obrigado pelo seu feedback</string>
+    <string name="str_rate_content_tag_rating">Crashes &amp; Bugs, Recurso de erro, Muitos anúncios, Outro</string>
+
+</resources>

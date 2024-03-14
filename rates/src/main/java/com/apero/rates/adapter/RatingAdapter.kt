@@ -56,10 +56,10 @@ internal class RatingAdapter : RecyclerView.Adapter<BaseViewHolder<RateItemRatin
         val isRated = items[position]
         with(holder) {
             binding.ivRating.setImageResource(
-                if (isDefault && position == items.size - 1) {
-                    R.drawable.icn_rate_highlight
+                if (isDefault) {
+                    R.drawable.ic_rate_highlight
                 } else {
-                    if (isRated) R.drawable.icn_rate_fill else R.drawable.icn_rate_unfill
+                    if (isRated) R.drawable.ic_rate_fill else R.drawable.ic_rate_un_fill
                 }
             )
             binding.ivRating.setOnClickListener {

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Mag-upload ng mga larawan</string>
+    <string name="str_rate_submit">Ipasa</string>
+    <string name="str_rate_feedback_content_hint">Ilagay ang iyong feedback dito! (kami %1$d mga character)</string>
+    <string name="str_rate_feedback_description">Nakahanap ng bug? Mayroon bang mungkahi? Punan ang form sa ibaba at titingnan namin ito!</string>
+    <string name="str_rate_feedback_title">Magpadala ng feedback sa amin!</string>
+    <string name="str_rate_rate_app_title">Gusto mo ba ang app?</string>
+    <string name="str_rate_rate_description">Lubos naming pinahahalagahan kung maaari mong ilarawan kami</string>
+    <string name="str_rate_give_us_5_stars">Ang pinakamahusay na maaari naming makuha :”></string>
+    <string name="str_rate_rate_us">Ilarawan kami</string>
+    <string name="str_rate_feedback_content_require">Kailangan ng iyong feedback ng hindi bababa sa %1$d mga character</string>
+    <string name="str_rate_rating_description_default">Lubos naming pinahahalagahan kung maaari mong ilarawan kami</string>
+    <string name="str_rate_oh_no">Ay, hindi!</string>
+    <string name="str_rate_thank_you">Salamat!</string>
+    <string name="str_rate_love_you_so_much">Mahal na mahal ka namin!</string>
+    <string name="str_rate_rating_description_low">Mangyaring mag-iwan ng iyong feedback</string>
+    <string name="str_rate_rating_description_high">Salamat sa iyong feedback</string>
+    <string name="str_rate_rate_on_google_play">Maglarawan sa Google Play</string>
+    <string name="str_rate_crashes_bugs">Mga Crash at Bugs</string>
+    <string name="str_rate_others">Iba</string>
+    <string name="str_rate_suggestion">Mungkahi</string>
+    <string name="str_rate_question_show_rate">Sa palagay mo ba\'y nakakatulong ang app na ito?</string>
+    <string name="str_rate_can_not_show_rate">Hindi talaga</string>
+    <string name="str_rate_confirm_show_rate">Oo, gusto ko iyon</string>
+    <string name="str_rate_content_rate_1_star">Magdadalamhati kami</string>
+    <string name="str_rate_content_rate_2_star">Nakalulungkot</string>
+    <string name="str_rate_content_rate_3_star">Pipilitin naming mapabuti ang aming app</string>
+    <string name="str_rate_content_rate_4_star">Subukan naming makamit ang iyong 5*</string>
+    <string name="str_rate_content_rate_5_star">Salamat sa iyong feedback</string>
+    <string name="str_rate_content_tag_rating">Mga Crash at Bugs, May maling feature, Masyadong maraming ads, Iba</string>
+
+</resources>

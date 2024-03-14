@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">写真をアップロード</string>
+    <string name="str_rate_submit">送信</string>
+    <string name="str_rate_feedback_content_hint">ここにフィードバックを入力してください！（最小 %1$d 文字）</string>
+    <string name="str_rate_feedback_description">バグを見つけましたか？提案はありますか？以下のフォームに記入して、ご意見をお聞かせください！</string>
+    <string name="str_rate_feedback_title">フィードバックをお送りください！</string>
+    <string name="str_rate_rate_app_title">アプリがお気に召しましたか？</string>
+    <string name="str_rate_rate_description">評価いただけると大変嬉しいです</string>
+    <string name="str_rate_give_us_5_stars">最高の評価をいただけます :”></string>
+    <string name="str_rate_rate_us">評価する</string>
+    <string name="str_rate_feedback_content_require">フィードバックは %1$d 文字以上でお願いします</string>
+    <string name="str_rate_rating_description_default">評価いただけると大変嬉しいです</string>
+    <string name="str_rate_oh_no">あらら！</string>
+    <string name="str_rate_thank_you">ありがとうございます！</string>
+    <string name="str_rate_love_you_so_much">大好きです！</string>
+    <string name="str_rate_rating_description_low">ご意見をお寄せください</string>
+    <string name="str_rate_rating_description_high">ご意見ありがとうございます</string>
+    <string name="str_rate_rate_on_google_play">Google Play で評価する</string>
+    <string name="str_rate_crashes_bugs">クラッシュ &amp; バグ</string>
+    <string name="str_rate_others">その他</string>
+    <string name="str_rate_suggestion">提案</string>
+    <string name="str_rate_question_show_rate">このアプリは役立ちましたか？</string>
+    <string name="str_rate_can_not_show_rate">いいえ、そうではありません</string>
+    <string name="str_rate_confirm_show_rate">はい、気に入りました</string>
+    <string name="str_rate_content_rate_1_star">泣いてしまいます</string>
+    <string name="str_rate_content_rate_2_star">とても悲しいです</string>
+    <string name="str_rate_content_rate_3_star">アプリを改善します</string>
+    <string name="str_rate_content_rate_4_star">5 つ星を獲得できるよう努力します</string>
+    <string name="str_rate_content_rate_5_star">ご意見ありがとうございます</string>
+    <string name="str_rate_content_tag_rating">クラッシュ &amp; バグ、機能エラー、広告が多すぎる、その他</string>
+
+</resources>

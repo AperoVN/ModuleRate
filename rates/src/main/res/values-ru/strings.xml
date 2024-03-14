@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Загрузить фотографии</string>
+    <string name="str_rate_submit">Отправить</string>
+    <string name="str_rate_feedback_content_hint">Оставьте ваш отзыв здесь! (минимальное количество символов: %1$d)</string>
+    <string name="str_rate_feedback_description">Нашли ошибку? Есть предложение? Заполните форму ниже, и мы посмотрим!</string>
+    <string name="str_rate_feedback_title">Поделитесь с нами своим мнением!</string>
+    <string name="str_rate_rate_app_title">Нравится ли вам приложение?</string>
+    <string name="str_rate_rate_description">Мы очень будем признательны, если вы оцените нас</string>
+    <string name="str_rate_give_us_5_stars">Лучшее, что мы можем получить :”></string>
+    <string name="str_rate_rate_us">Оцените нас</string>
+    <string name="str_rate_feedback_content_require">Ваш отзыв должен содержать не менее %1$d символов</string>
+    <string name="str_rate_rating_description_default">Мы очень будем признательны, если вы оцените нас</string>
+    <string name="str_rate_oh_no">О, нет!</string>
+    <string name="str_rate_thank_you">Спасибо!</string>
+    <string name="str_rate_love_you_so_much">Мы вас очень любим!</string>
+    <string name="str_rate_rating_description_low">Пожалуйста, оставьте нам отзыв</string>
+    <string name="str_rate_rating_description_high">Спасибо за ваш отзыв</string>
+    <string name="str_rate_rate_on_google_play">Оценить в Google Play</string>
+    <string name="str_rate_crashes_bugs">Сбои и ошибки</string>
+    <string name="str_rate_others">Другое</string>
+    <string name="str_rate_suggestion">Предложение</string>
+    <string name="str_rate_question_show_rate">Считаете ли вы это приложение полезным?</string>
+    <string name="str_rate_can_not_show_rate">Нет. Не очень</string>
+    <string name="str_rate_confirm_show_rate">Да. Мне понравилось</string>
+    <string name="str_rate_content_rate_1_star">Мы будем плакать</string>
+    <string name="str_rate_content_rate_2_star">Так грустно</string>
+    <string name="str_rate_content_rate_3_star">Мы улучшим наше приложение</string>
+    <string name="str_rate_content_rate_4_star">Мы постараемся заслужить ваши 5 звезд</string>
+    <string name="str_rate_content_rate_5_star">Спасибо за ваш отзыв</string>
+    <string name="str_rate_content_tag_rating">Сбои и ошибки, Ошибка функции, Слишком много рекламы, Другое</string>
+
+</resources>

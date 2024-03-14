@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">ছবি আপলোড করুন</string>
+    <string name="str_rate_submit">জমা দিন</string>
+    <string name="str_rate_feedback_content_hint">আপনার মতামত এখানে লিখুন! (সর্বনিম্ন %1$d অক্ষর)</string>
+    <string name="str_rate_feedback_description">কোনো বাগ পাননি? একটি পরামর্শ আছে? নীচের ফর্মটি পূরণ করুন এবং আমরা এটি দেখব!</string>
+    <string name="str_rate_feedback_title">আমাদের কিছু মতামত দিন!</string>
+    <string name="str_rate_rate_app_title">আপনি কি অ্যাপটি পছন্দ করেন?</string>
+    <string name="str_rate_rate_description">আমরা আনন্দিত হবো যদি আপনি আমাদেরকে রেট করেন</string>
+    <string name="str_rate_give_us_5_stars">আমরা যে সর্বোত্তম পাবো :”></string>
+    <string name="str_rate_rate_us">আমাদের রেট করুন</string>
+    <string name="str_rate_feedback_content_require">আপনার মতামতের জন্য অন্তত %1$d অক্ষর লাগবে</string>
+    <string name="str_rate_rating_description_default">আমরা আনন্দিত হবো যদি আপনি আমাদেরকে রেট করেন</string>
+    <string name="str_rate_oh_no">ওহ, না!</string>
+    <string name="str_rate_thank_you">ধন্যবাদ!</string>
+    <string name="str_rate_love_you_so_much">আপনাকে অনেক ভালোবাসি!</string>
+    <string name="str_rate_rating_description_low">আমাদেরকে কিছু মতামত দিন</string>
+    <string name="str_rate_rating_description_high">আপনার মতামতের জন্য ধন্যবাদ</string>
+    <string name="str_rate_rate_on_google_play">গুগল প্লে এ রেট করুন</string>
+    <string name="str_rate_crashes_bugs">ক্র্যাশ এবং বাগ</string>
+    <string name="str_rate_others">অন্যান্য</string>
+    <string name="str_rate_suggestion">পরামর্শ</string>
+    <string name="str_rate_question_show_rate">আপনি মনে করেন এই অ্যাপটি সাহায্যকর কি?</string>
+    <string name="str_rate_can_not_show_rate">না, না প্রকৃতপক্ষে</string>
+    <string name="str_rate_confirm_show_rate">হ্যাঁ, আমি এটি পছন্দ করি</string>
+    <string name="str_rate_content_rate_1_star">আমরা কাঁদব</string>
+    <string name="str_rate_content_rate_2_star">খুব দু: খিত</string>
+    <string name="str_rate_content_rate_3_star">আমরা আমাদের অ্যাপটি উন্নত করব</string>
+    <string name="str_rate_content_rate_4_star">আমরা আপনার 5 তার প্রাপ্ত করতে চেষ্টা করব</string>
+    <string name="str_rate_content_rate_5_star">আপনার মতামতের জন্য ধন্যবাদ</string>
+    <string name="str_rate_content_tag_rating">ক্র্যাশ এবং বাগ, অক্ষম ফিচার, অনেক বিজ্ঞাপন, অন্যান্য</string>
+
+
+</resources>

@@ -1,5 +1,6 @@
 package com.apero.rates
 
+import android.app.Activity
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -60,8 +61,9 @@ internal class RateAppDialog : BaseDialogBinding<RateDialogRateAppBinding>() {
                 else -> "lottie/rate_none.json"
             }.let { setLottieAnimation(it) }
             binding.tvTitle.text = when (rating) {
-                in 1..3 -> getString(R.string.str_rate_oh_no)
-                in 4..5 -> getString(R.string.str_rate_we_like_you_too)
+                in 1..2 -> getString(R.string.str_rate_oh_no)
+                in 3..4 -> getString(R.string.str_rate_thank_you)
+                5 -> getString(R.string.str_rate_love_you_so_much)
                 else -> getString(R.string.str_rate_rate_app_title)
             }
             binding.tvMessage.text = when (rating) {
@@ -88,7 +90,7 @@ internal class RateAppDialog : BaseDialogBinding<RateDialogRateAppBinding>() {
             val rate = ratingAdapter.getRating()
             track("popup_rate_click_button","star" to rate)
             if (rate > 0) {
-                if (rate > 3) {
+                if (rate >= remoteRate.starVoteOnStore) {
                     reviewApp {
                         invokeSuccess(it)
                     }
@@ -101,7 +103,11 @@ internal class RateAppDialog : BaseDialogBinding<RateDialogRateAppBinding>() {
                                 hasActivityResult = true,
                             )
                         ) {
-                            invokeSuccess(true)
+                            if (it.resultCode == Activity.RESULT_CANCELED) {
+                                dismiss()
+                            } else {
+                                invokeSuccess(true)
+                            }
                         }
                     }
                 }

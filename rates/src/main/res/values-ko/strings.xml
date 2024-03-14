@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">사진 업로드</string>
+    <string name="str_rate_submit">제출</string>
+    <string name="str_rate_feedback_content_hint">여기에 피드백을 입력하세요! (최소 %1$d자)</string>
+    <string name="str_rate_feedback_description">버그를 발견했나요? 제안이 있으신가요? 아래 양식을 작성하고 확인해보겠습니다!</string>
+    <string name="str_rate_feedback_title">피드백 보내기!</string>
+    <string name="str_rate_rate_app_title">앱을 좋아하시나요?</string>
+    <string name="str_rate_rate_description">평가해 주시면 감사하겠습니다</string>
+    <string name="str_rate_give_us_5_stars">최고의 평가를 부탁드립니다 :”></string>
+    <string name="str_rate_rate_us">평가하기</string>
+    <string name="str_rate_feedback_content_require">피드백은 최소 %1$d자 이상이어야 합니다</string>
+    <string name="str_rate_rating_description_default">평가해 주시면 감사하겠습니다</string>
+    <string name="str_rate_oh_no">오, 안돼요!</string>
+    <string name="str_rate_thank_you">감사합니다!</string>
+    <string name="str_rate_love_you_so_much">너무 사랑해요!</string>
+    <string name="str_rate_rating_description_low">의견을 남겨주세요</string>
+    <string name="str_rate_rating_description_high">피드백 감사합니다</string>
+    <string name="str_rate_rate_on_google_play">Google Play에서 평가하기</string>
+    <string name="str_rate_crashes_bugs">크래시 &amp; 버그</string>
+    <string name="str_rate_others">기타</string>
+    <string name="str_rate_suggestion">제안</string>
+    <string name="str_rate_question_show_rate">이 앱이 도움이 되었다고 생각하시나요?</string>
+    <string name="str_rate_can_not_show_rate">아니요, 별로 안 도와요</string>
+    <string name="str_rate_confirm_show_rate">네, 좋았어요</string>
+    <string name="str_rate_content_rate_1_star">우리가 울겠어요</string>
+    <string name="str_rate_content_rate_2_star">정말 슬퍼요</string>
+    <string name="str_rate_content_rate_3_star">우리 앱을 개선하겠습니다</string>
+    <string name="str_rate_content_rate_4_star">5점을 받을 수 있도록 노력하겠습니다</string>
+    <string name="str_rate_content_rate_5_star">피드백 감사합니다</string>
+    <string name="str_rate_content_tag_rating">크래시 &amp; 버그, 오류 기능, 광고 너무 많음, 기타</string>
+
+</resources>

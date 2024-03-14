@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Télécharger des photos</string>
+    <string name="str_rate_submit">Soumettre</string>
+    <string name="str_rate_feedback_content_hint">Saisissez votre feedback ici ! (minimum %1$d caractères)</string>
+    <string name="str_rate_feedback_description">Vous avez trouvé un bug ? Vous avez une suggestion ? Remplissez le formulaire ci-dessous et nous y jetterons un œil !</string>
+    <string name="str_rate_feedback_title">Envoyez-nous votre avis !</string>
+    <string name="str_rate_rate_app_title">Aimez-vous l\'application ?</string>
+    <string name="str_rate_rate_description">Nous apprécierions beaucoup si vous pouviez nous évaluer</string>
+    <string name="str_rate_give_us_5_stars">Le meilleur que nous puissions obtenir :”></string>
+    <string name="str_rate_rate_us">Évaluez-nous</string>
+    <string name="str_rate_feedback_content_require">Votre feedback doit comporter au moins %1$d caractères</string>
+    <string name="str_rate_rating_description_default">Nous apprécierions beaucoup si vous pouviez nous évaluer</string>
+    <string name="str_rate_oh_no">Oh non !</string>
+    <string name="str_rate_thank_you">Merci !</string>
+    <string name="str_rate_love_you_so_much">Nous vous aimons tellement !</string>
+    <string name="str_rate_rating_description_low">Veuillez nous laisser un feedback</string>
+    <string name="str_rate_rating_description_high">Merci pour votre feedback</string>
+    <string name="str_rate_rate_on_google_play">Évaluer sur Google Play</string>
+    <string name="str_rate_crashes_bugs">Crashes &amp; Bugs</string>
+    <string name="str_rate_others">Autres</string>
+    <string name="str_rate_suggestion">Suggestion</string>
+    <string name="str_rate_question_show_rate">Pensez-vous que cette application est utile ?</string>
+    <string name="str_rate_can_not_show_rate">Non, pas vraiment</string>
+    <string name="str_rate_confirm_show_rate">Oui, je l\'ai aimé</string>
+    <string name="str_rate_content_rate_1_star">Nous allons pleurer</string>
+    <string name="str_rate_content_rate_2_star">Tellement triste</string>
+    <string name="str_rate_content_rate_3_star">Nous allons améliorer notre application</string>
+    <string name="str_rate_content_rate_4_star">Nous essaierons d\'obtenir vos 5*</string>
+    <string name="str_rate_content_rate_5_star">Merci pour votre feedback</string>
+    <string name="str_rate_content_tag_rating">Crashes &amp; Bugs, Fonctionnalité erronée, Trop de publicités, Autres</string>
+
+</resources>

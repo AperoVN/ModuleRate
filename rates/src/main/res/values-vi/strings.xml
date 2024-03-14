@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Tải lên ảnh</string>
+    <string name="str_rate_submit">Gửi</string>
+    <string name="str_rate_feedback_content_hint">Nhập phản hồi của bạn ở đây! (ít nhất %1$d ký tự)</string>
+    <string name="str_rate_feedback_description">Tìm thấy lỗi? Có đề xuất gì không? Điền vào biểu mẫu dưới đây và chúng tôi sẽ xem xét!</string>
+    <string name="str_rate_feedback_title">Gửi cho chúng tôi một số phản hồi!</string>
+    <string name="str_rate_rate_app_title">Bạn có thích ứng dụng không?</string>
+    <string name="str_rate_rate_description">Chúng tôi rất mong được bạn đánh giá</string>
+    <string name="str_rate_give_us_5_stars">Tốt nhất mà chúng tôi có thể nhận được :”></string>
+    <string name="str_rate_rate_us">Đánh giá chúng tôi</string>
+    <string name="str_rate_feedback_content_require">Phản hồi của bạn cần ít nhất %1$d ký tự</string>
+    <string name="str_rate_rating_description_default">Chúng tôi rất mong được bạn đánh giá</string>
+    <string name="str_rate_oh_no">Ôi, không!</string>
+    <string name="str_rate_thank_you">Cảm ơn bạn!</string>
+    <string name="str_rate_love_you_so_much">Yêu bạn nhiều!</string>
+    <string name="str_rate_rating_description_low">Vui lòng để lại cho chúng tôi một số phản hồi</string>
+    <string name="str_rate_rating_description_high">Cảm ơn bạn về phản hồi của bạn</string>
+    <string name="str_rate_rate_on_google_play">Đánh giá trên Google Play</string>
+    <string name="str_rate_crashes_bugs">Sự cố &amp; Lỗi</string>
+    <string name="str_rate_others">Khác</string>
+    <string name="str_rate_suggestion">Gợi ý</string>
+    <string name="str_rate_question_show_rate">Bạn nghĩ ứng dụng này có hữu ích không?</string>
+    <string name="str_rate_can_not_show_rate">Không. Không thực sự</string>
+    <string name="str_rate_confirm_show_rate">Có. Tôi thích nó</string>
+    <string name="str_rate_content_rate_1_star">Chúng tôi sẽ khóc</string>
+    <string name="str_rate_content_rate_2_star">Quá buồn</string>
+    <string name="str_rate_content_rate_3_star">Chúng tôi sẽ cải thiện ứng dụng của mình</string>
+    <string name="str_rate_content_rate_4_star">Chúng tôi sẽ cố gắng đạt được 5 của bạn</string>
+    <string name="str_rate_content_rate_5_star">Cảm ơn bạn về phản hồi của bạn</string>
+    <string name="str_rate_content_tag_rating">Sự cố &amp; Lỗi, Tính năng lỗi, Quảng cáo quá nhiều, Khác</string>
+
+</resources>

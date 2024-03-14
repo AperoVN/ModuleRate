@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">புகைப்படங்களை பதிவேற்று</string>
+    <string name="str_rate_submit">சமர்ப்பிக்கவும்</string>
+    <string name="str_rate_feedback_content_hint">உங்கள் கருத்துக்களை இங்கே உள்ளிடவும்! (குறைந்தது %1$d எழுத்துக்கள்)</string>
+    <string name="str_rate_feedback_description">பிழை கண்டதும்? மனம் உள்ளதும்? கீழே உள்ள படிவத்தை நிரப்புகிறோம் மற்றும் நாங்கள் ஒரு பார்வைக்கு போகும்!</string>
+    <string name="str_rate_feedback_title">எங்களுக்கு சில கருத்துக்களை அனுப்புங்கள்!</string>
+    <string name="str_rate_rate_app_title">நீங்கள் பயன்படுத்துகிறீர்களா அப்ளிகேஷன் மீது?</string>
+    <string name="str_rate_rate_description">நாம் உங்கள் மதிப்பீட்டை மிகவும் மகிழ்ச்சியாக எடுக்கிறோம்</string>
+    <string name="str_rate_give_us_5_stars">நாங்கள் பெற முடியும் சிறந்த பெற்றுக்கொள் :”></string>
+    <string name="str_rate_rate_us">மதிப்பீடு செய்யுங்கள்</string>
+    <string name="str_rate_feedback_content_require">உங்கள் பின்னூட்டம் குறைந்தது %1$d எழுத்துக்கள் வேண்டும்</string>
+    <string name="str_rate_rating_description_default">நாம் உங்கள் மதிப்பீட்டை மிகவும் மகிழ்ச்சியாக எடுக்கிறோம்</string>
+    <string name="str_rate_oh_no">ஓ, இல்லை!</string>
+    <string name="str_rate_thank_you">நன்றி!</string>
+    <string name="str_rate_love_you_so_much">உங்களை மிகவும் காதலிக்கிறோம்!</string>
+    <string name="str_rate_rating_description_low">தயவுசெய்து குறைந்தது பின்னூட்டம் விட்டுவிடுங்கள்</string>
+    <string name="str_rate_rating_description_high">உங்கள் பின்னூட்டம் மிகவும் மகிழ்ச்சியாக உள்ளது</string>
+    <string name="str_rate_rate_on_google_play">Google Play இல் மதிப்பீடு செய்யுங்கள்</string>
+    <string name="str_rate_crashes_bugs">தவறுகள் &amp; பக்கங்கள்</string>
+    <string name="str_rate_others">மற்றவை</string>
+    <string name="str_rate_suggestion">மனஅழைப்பு</string>
+    <string name="str_rate_question_show_rate">இந்த பயன்பாட்டின் உதவிக்கும் என்று நீங்கள் என்ன என்பதை நீங்கள் நினைக்கின்றீர்களா?</string>
+    <string name="str_rate_can_not_show_rate">இல்லை. அல்லது உண்மையில் இல்லை</string>
+    <string name="str_rate_confirm_show_rate">ஆம். எனக்கு பிடித்துகிறது</string>
+    <string name="str_rate_content_rate_1_star">நாங்கள் அழுகிறோம்</string>
+    <string name="str_rate_content_rate_2_star">மிகவும் மெதுவாக</string>
+    <string name="str_rate_content_rate_3_star">நாங்கள் எங்கள் பயன்பாட்டை மேம்படுத்துவோம்</string>
+    <string name="str_rate_content_rate_4_star">நாம் உங்கள் 5* களைப் பெற முயன்றுகிறோம்</string>
+    <string name="str_rate_content_rate_5_star">உங்கள் பின்னூட்டம் மிகவும் மகிழ்ச்சியாக உள்ளது</string>
+    <string name="str_rate_content_tag_rating">தவறுகள் &amp; பக்கங்கள், பிழை அம்சம், நிறுவனங்களின் விளக்கம், மற்றவை</string>
+
+</resources>

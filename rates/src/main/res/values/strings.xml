@@ -7,12 +7,13 @@
     <string name="str_rate_feedback_title">Send us some feedback!</string>
     <string name="str_rate_rate_app_title">Do you like the app?</string>
     <string name="str_rate_rate_description">We’d greatly appreciate if you can rate us</string>
-    <string name="str_rate_give_us_5_stars">Give us 5 stars</string>
+    <string name="str_rate_give_us_5_stars">The best we can get :”></string>
     <string name="str_rate_rate_us">Rate us</string>
     <string name="str_rate_feedback_content_require">You content feedback need min %1$d characters</string>
     <string name="str_rate_rating_description_default">We’d greatly appreciate if you can rate us</string>
     <string name="str_rate_oh_no">Oh, no!</string>
-    <string name="str_rate_we_like_you_too">We like you too!</string>
+    <string name="str_rate_thank_you">Thank you!</string>
+    <string name="str_rate_love_you_so_much">Love you so much!</string>
     <string name="str_rate_rating_description_low">Please leave us some feedback</string>
     <string name="str_rate_rating_description_high">Thanks for your feedback</string>
     <string name="str_rate_rate_on_google_play">Rate on Google Play</string>

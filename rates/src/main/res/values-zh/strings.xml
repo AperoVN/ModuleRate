@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">上传照片</string>
+    <string name="str_rate_submit">提交</string>
+    <string name="str_rate_feedback_content_hint">在此输入您的反馈！（最少%1$d个字符）</string>
+    <string name="str_rate_feedback_description">发现了一个错误？有建议吗？填写下面的表格，我们会查看的！</string>
+    <string name="str_rate_feedback_title">给我们发送一些反馈！</string>
+    <string name="str_rate_rate_app_title">您喜欢这个应用吗？</string>
+    <string name="str_rate_rate_description">如果您能给我们评分，我们将不胜感激</string>
+    <string name="str_rate_give_us_5_stars">我们能得到的最好的：”></string>
+    <string name="str_rate_rate_us">给我们评分</string>
+    <string name="str_rate_feedback_content_require">您的反馈需要至少%1$d个字符</string>
+    <string name="str_rate_rating_description_default">如果您能给我们评分，我们将不胜感激</string>
+    <string name="str_rate_oh_no">哦，不！</string>
+    <string name="str_rate_thank_you">谢谢！</string>
+    <string name="str_rate_love_you_so_much">非常爱你！</string>
+    <string name="str_rate_rating_description_low">请留下您的一些反馈</string>
+    <string name="str_rate_rating_description_high">感谢您的反馈</string>
+    <string name="str_rate_rate_on_google_play">在Google Play上评分</string>
+    <string name="str_rate_crashes_bugs">崩溃和错误</string>
+    <string name="str_rate_others">其他</string>
+    <string name="str_rate_suggestion">建议</string>
+    <string name="str_rate_question_show_rate">您认为这个应用有帮助吗？</string>
+    <string name="str_rate_can_not_show_rate">不，不是真的</string>
+    <string name="str_rate_confirm_show_rate">是的，我喜欢它</string>
+    <string name="str_rate_content_rate_1_star">我们会哭泣</string>
+    <string name="str_rate_content_rate_2_star">太伤心了</string>
+    <string name="str_rate_content_rate_3_star">我们会改进我们的应用</string>
+    <string name="str_rate_content_rate_4_star">我们将努力获得您的5*</string>
+    <string name="str_rate_content_rate_5_star">感谢您的反馈</string>
+    <string name="str_rate_content_tag_rating">崩溃和错误，错误特性，广告太多，其他</string>
+
+</resources>

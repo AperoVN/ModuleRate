@@ -12,25 +12,29 @@ class ChooseRateBottomSheet : BaseBottomSheet<RateBottomSheetChooseRateBinding>(
         return RateBottomSheetChooseRateBinding.inflate(layoutInflater)
     }
 
-    private var onConfirmShowRateListener: (isSatisfied: Boolean) -> Unit = {}
+    private var onConfirmShowRateListener: (isSatisfied: Boolean, dialog: ChooseRateBottomSheet) -> Unit = { _, _ -> }
+    private var onCloseRateListener: () -> Unit = {}
 
-    fun setOnShowRateListener(onConfirmShowRateListener: (isSatisfied: Boolean) -> Unit) = apply {
+    fun setOnShowRateListener(onConfirmShowRateListener: (isSatisfied: Boolean, dialog: ChooseRateBottomSheet) -> Unit) = apply {
         this.onConfirmShowRateListener = onConfirmShowRateListener
+    }
+
+    fun setOnCloseRateListener(onCloseRateListener: () -> Unit) = apply {
+        this.onCloseRateListener = onCloseRateListener
     }
 
     override fun updateUI() {
         track("bottom_sheet_rate_view")
         binding.btnSatisfied.setOnClickListener {
             track("bottom_sheet_rate_click_satisfied")
-            onConfirmShowRateListener(true)
-            dismiss()
+            onConfirmShowRateListener(true, this)
         }
         binding.btnUnsatisfied.setOnClickListener {
             track("bottom_sheet_rate_click_dissatisfied")
-            onConfirmShowRateListener(false)
-            dismiss()
+            onConfirmShowRateListener(false, this)
         }
         binding.ivClose.setOnClickListener {
+            onCloseRateListener()
             dismiss()
         }
     }

@@ -13,8 +13,10 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import androidx.core.widget.doOnTextChanged
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.apero.rates.ModuleRate
 import com.apero.rates.R
@@ -26,11 +28,15 @@ import com.apero.rates.ext.disableAdResumeByClickAction
 import com.apero.rates.feedback.adapter.MediaAdapter
 import com.apero.rates.feedback.adapter.SuggestionAdapter
 import com.apero.rates.model.ItemMedia
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.yield
+import java.util.concurrent.atomic.AtomicBoolean
 
 /**
  * Created by KO Huyn on 19/10/2023.
@@ -60,9 +66,6 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
 
     private val hasActivityResult
         get() = intent?.getBooleanExtra(ARG_HAS_ACTIVITY_RESULT, false) ?: false
-
-    private val sendMailResult =
-        RequestForResultManager(this, ActivityResultContracts.StartActivityForResult())
 
     override fun getStatusBarColor(): Int {
         return R.color.clr_rate_background
@@ -114,17 +117,36 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
                 showMessage(getString(R.string.str_rate_feedback_content_require, MIN_TEXT))
             } else {
                 track("feedback_scr_click_submit")
-                finish()
                 sendEmail(listSuggestion, listImage, textFeedback)
             }
         }
         binding.edtFeedback.doOnTextChanged { str, _, _, _ ->
             viewModel.updateContentLength(str?.trim()?.length ?: 0)
         }
-        binding.layoutContent.setOnTouchListener { _, _ ->
+        viewModel.listSuggestion
+            .distinctUntilChanged { old, new -> old.count { it.isSelected } == new.count { it.isSelected } }
+            .onEach { list ->
+                var currentText = binding.edtFeedback.text?.toString() ?: ""
+                val listUnselected = list.filterNot { it.isSelected }
+                val listSelected = list.filter { it.isSelected }
+                listUnselected.onEach {
+                    val label = it.label.getBy(this).toString()
+                    if (currentText.contains(label)) {
+                        currentText = currentText.replaceFirst(label, "")
+                    }
+                }
+                listSelected.onEach {
+                    val label = it.label.getBy(this).toString()
+                    if (!currentText.contains(label)) {
+                        currentText = "$currentText $label"
+                    }
+                }
+                binding.edtFeedback.setText(currentText.trim())
+            }.launchIn(lifecycleScope)
+//        binding.layoutContent.setOnTouchListener { _, _ ->
 //            hideKeyboard(binding.edtFeedback)
-            true
-        }
+//            true
+//        }
     }
 
     private fun selectMedia() {
@@ -148,9 +170,9 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
             suggestionAdapter.items = it
         }.launchIn(lifecycleScope)
 
-        viewModel.listSuggestion
+        viewModel.listMedia
             .combine(viewModel.contentLength) { list, length ->
-                list.any { it.isSelected } && length >= MIN_TEXT
+                list.isNotEmpty() || length >= MIN_TEXT
             }.flowWithLifecycle(lifecycle)
             .distinctUntilChanged()
             .onEach { isEnableSubmit ->
@@ -160,8 +182,11 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
             .launchIn(lifecycleScope)
 
         viewModel.listMedia.flowWithLifecycle(lifecycle).onEach {
+            val oldCount = mediaAdapter.itemCount
             mediaAdapter.submitList(it) {
-                binding.rvMedia.scrollToPosition(it.size - 1)
+                if (it.size > oldCount) {
+                    binding.rvMedia.scrollToPosition(it.size - 1)
+                }
             }
         }.launchIn(lifecycleScope)
 
@@ -200,19 +225,25 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
             mailIntent.type = "message/rfc822"
             mailIntent.setPackage("com.google.android.gm")
             mailIntent.putExtra(Intent.EXTRA_EMAIL, arrayOf("trustedapp.help@gmail.com"))
-            mailIntent.putExtra(Intent.EXTRA_SUBJECT, "AllDocument Reader Feedback")
+            mailIntent.putExtra(Intent.EXTRA_SUBJECT, "${ModuleRate.APP_NAME} Feedback")
             mailIntent.putExtra(Intent.EXTRA_TEXT, content)
             if (listImage.isNotEmpty()) {
                 mailIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, ArrayList(listImage))
             }
-            sendMailResult.startForResult(mailIntent) {
-                if (it.resultCode == Activity.RESULT_OK) {
-                    track("feedback_success", "content" to content)
+            track("feedback_success", "content" to content)
+            var jobCheckResult :Job? = null
+            lifecycleScope.launch {
+                val flagOneShot = AtomicBoolean(false)
+                lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
+                    if (flagOneShot.compareAndSet(false, true)) {
+                        yield()
+                        setResult(Activity.RESULT_OK)
+                        finish()
+                        jobCheckResult?.cancel()
+                    }
                 }
-                if (hasActivityResult) {
-                    setResult(it.resultCode)
-                }
-            }
+            }.let { jobCheckResult = it }
+            startActivity(mailIntent)
         }
     }
 }

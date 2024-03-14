@@ -59,7 +59,7 @@
                 android:gravity="center"
                 android:text="@string/str_rate_feedback_description"
                 android:textColor="@color/clr_text"
-                android:textSize="@dimen/text_size_13" />
+                android:textSize="@dimen/text_size_14" />
 
 
             <LinearLayout
@@ -124,7 +124,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/space_16"
-                    android:background="@drawable/rate_bg_corner_12_primary"
+                    android:background="@drawable/rate_bg_corner_rounded_primary"
                     android:gravity="center"
                     android:text="@string/str_rate_submit"
                     android:textAllCaps="true"

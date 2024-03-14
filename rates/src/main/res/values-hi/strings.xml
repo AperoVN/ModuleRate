@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">तस्वीरें अपलोड करें</string>
+    <string name="str_rate_submit">प्रस्तुत करें</string>
+    <string name="str_rate_feedback_content_hint">यहाँ अपना फ़ीडबैक दर्ज करें! (न्यूनतम %1$d अक्षर)</string>
+    <string name="str_rate_feedback_description">कोई बग मिला? कोई सुझाव है? नीचे दिए गए फ़ॉर्म को भरें और हम इस पर नज़र डालेंगे!</string>
+    <string name="str_rate_feedback_title">हमें कुछ फ़ीडबैक भेजें!</string>
+    <string name="str_rate_rate_app_title">क्या आपको ऐप पसंद है?</string>
+    <string name="str_rate_rate_description">हम आपकी मूल्यांकन का बहुत ही स्वागत करेंगे</string>
+    <string name="str_rate_give_us_5_stars">हमारे पास सबसे अच्छा :”></string>
+    <string name="str_rate_rate_us">हमें मूल्यांकन दें</string>
+    <string name="str_rate_feedback_content_require">आपका फ़ीडबैक कम से कम %1$d अक्षरों का होना चाहिए</string>
+    <string name="str_rate_rating_description_default">हम आपकी मूल्यांकन का बहुत ही स्वागत करेंगे</string>
+    <string name="str_rate_oh_no">ओह, नहीं!</string>
+    <string name="str_rate_thank_you">धन्यवाद!</string>
+    <string name="str_rate_love_you_so_much">हम आपको बहुत पसंद करते हैं!</string>
+    <string name="str_rate_rating_description_low">कृपया हमें कुछ फ़ीडबैक दें</string>
+    <string name="str_rate_rating_description_high">आपके फ़ीडबैक के लिए धन्यवाद</string>
+    <string name="str_rate_rate_on_google_play">Google प्ले पर मूल्यांकन करें</string>
+    <string name="str_rate_crashes_bugs">क्रैश और बग्स</string>
+    <string name="str_rate_others">अन्य</string>
+    <string name="str_rate_suggestion">सुझाव</string>
+    <string name="str_rate_question_show_rate">क्या आपको लगता है कि यह ऐप उपयोगी है?</string>
+    <string name="str_rate_can_not_show_rate">नहीं, वास्तव में नहीं</string>
+    <string name="str_rate_confirm_show_rate">हां, मुझे यह पसंद आया</string>
+    <string name="str_rate_content_rate_1_star">हम रोएँगे</string>
+    <string name="str_rate_content_rate_2_star">बहुत दुःखी</string>
+    <string name="str_rate_content_rate_3_star">हम अपना ऐप सुधारेंगे</string>
+    <string name="str_rate_content_rate_4_star">हम आपके 5* प्राप्त करने की कोशिश करेंगे</string>
+    <string name="str_rate_content_rate_5_star">आपके फ़ीडबैक के लिए धन्यवाद</string>
+    <string name="str_rate_content_tag_rating">क्रैश और बग्स, गलत फ़ीचर, बहुत सारे विज्ञापन, अन्य</string>
+
+</resources>

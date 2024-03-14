@@ -15,6 +15,7 @@ object ModuleRate {
     private var hasInitialized = false
     internal var VERSION_NAME: String? = null
     internal var VERSION_CODE: Int? = null
+    internal var APP_NAME: String? = null
     internal var onDismissAppOpenListener: () -> Unit = {}
     fun install(application: Application) {
         if (hasInitialized) return
@@ -23,10 +24,11 @@ object ModuleRate {
         Analytics.install(application)
     }
 
-    fun install(application: Application, versionCode: Int, versionName: String){
+    fun install(application: Application, versionCode: Int, versionName: String, appName: String) {
         install(application)
         this.VERSION_CODE = versionCode
         this.VERSION_NAME = versionName
+        this.APP_NAME = appName
     }
 
     fun setOnDismissAppOpenListener(onDismissAppOpenListener: () -> Unit) = apply {
@@ -35,12 +37,14 @@ object ModuleRate {
 
     fun showRate(fm: FragmentManager, resultListener: (isRated: Boolean) -> Unit) {
         ChooseRateBottomSheet()
-            .setOnShowRateListener { isSatisfied ->
+            .setOnCloseRateListener { resultListener(false) }
+            .setOnShowRateListener { isSatisfied, chooseDialog ->
                 RateAppDialog()
                     .setRateSatisfied(isSatisfied)
                     .setOnRateSuccessfully { isRated, dialog ->
                         resultListener(isRated)
                         dialog.dismiss()
+                        chooseDialog.dismiss()
                     }.show(fm)
             }.show(fm)
     }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">Unggah Foto</string>
+    <string name="str_rate_submit">Kirim</string>
+    <string name="str_rate_feedback_content_hint">Masukkan umpan balik Anda di sini! (minimal %1$d karakter)</string>
+    <string name="str_rate_feedback_description">Menemukan bug? Punya saran? Isi formulir di bawah ini dan kami akan memeriksanya!</string>
+    <string name="str_rate_feedback_title">Kirimkan kami beberapa umpan balik!</string>
+    <string name="str_rate_rate_app_title">Apakah Anda menyukai aplikasi ini?</string>
+    <string name="str_rate_rate_description">Kami sangat menghargai jika Anda dapat memberi penilaian kepada kami</string>
+    <string name="str_rate_give_us_5_stars">Yang terbaik yang bisa kami dapatkan :”></string>
+    <string name="str_rate_rate_us">Beri penilaian kepada kami</string>
+    <string name="str_rate_feedback_content_require">Umpan balik Anda perlu minimal %1$d karakter</string>
+    <string name="str_rate_rating_description_default">Kami sangat menghargai jika Anda dapat memberi penilaian kepada kami</string>
+    <string name="str_rate_oh_no">Oh, tidak!</string>
+    <string name="str_rate_thank_you">Terima kasih!</string>
+    <string name="str_rate_love_you_so_much">Kami sangat mencintai Anda!</string>
+    <string name="str_rate_rating_description_low">Silakan tinggalkan kami beberapa umpan balik</string>
+    <string name="str_rate_rating_description_high">Terima kasih atas umpan balik Anda</string>
+    <string name="str_rate_rate_on_google_play">Beri penilaian di Google Play</string>
+    <string name="str_rate_crashes_bugs">Crash &amp; Bug</string>
+    <string name="str_rate_others">Lainnya</string>
+    <string name="str_rate_suggestion">Saran</string>
+    <string name="str_rate_question_show_rate">Apakah Anda pikir aplikasi ini membantu?</string>
+    <string name="str_rate_can_not_show_rate">Tidak, tidak begitu</string>
+    <string name="str_rate_confirm_show_rate">Ya, saya menyukainya</string>
+    <string name="str_rate_content_rate_1_star">Kami akan menangis</string>
+    <string name="str_rate_content_rate_2_star">Sangat sedih</string>
+    <string name="str_rate_content_rate_3_star">Kami akan memperbaiki aplikasi kami</string>
+    <string name="str_rate_content_rate_4_star">Kami akan berusaha mendapatkan 5 bintang dari Anda</string>
+    <string name="str_rate_content_rate_5_star">Terima kasih atas umpan balik Anda</string>
+    <string name="str_rate_content_tag_rating">Crash &amp; Bug, Fitur Salah, Terlalu banyak iklan, Lainnya</string>
+
+</resources>

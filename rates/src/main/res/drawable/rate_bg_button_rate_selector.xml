@@ -2,26 +2,26 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:right="@dimen/space_4"
-        android:top="@dimen/space_4">
+        android:right="@dimen/space_2"
+        android:top="@dimen/space_2">
         <shape android:shape="rectangle">
-            <corners android:radius="@dimen/space_4" />
+            <corners android:radius="@dimen/space_8" />
             <solid android:color="@color/clr_rate_primary" />
         </shape>
     </item>
 
     <item
-        android:bottom="@dimen/space_4"
-        android:left="@dimen/space_4">
+        android:bottom="@dimen/space_2"
+        android:left="@dimen/space_2">
         <shape android:shape="rectangle">
-            <corners android:radius="@dimen/space_4" />
+            <corners android:radius="@dimen/space_8" />
             <solid android:color="@color/white" />
         </shape>
     </item>
 
     <item
-        android:bottom="@dimen/space_4"
-        android:left="@dimen/space_4">
+        android:bottom="@dimen/space_2"
+        android:left="@dimen/space_2">
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/space_4" />
             <solid android:color="@color/clr_rate_primary_10" />

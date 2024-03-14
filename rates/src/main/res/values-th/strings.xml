@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">อัปโหลดรูปภาพ</string>
+    <string name="str_rate_submit">ส่ง</string>
+    <string name="str_rate_feedback_content_hint">ป้อนคำติชมของคุณที่นี่! (ต่ำสุด %1$d ตัวอักษร)</string>
+    <string name="str_rate_feedback_description">พบข้อผิดพลาดหรือมีข้อเสนอ? กรอกแบบฟอร์มด้านล่างและเราจะดูแล!</string>
+    <string name="str_rate_feedback_title">ส่งคำติชมถึงเรา!</string>
+    <string name="str_rate_rate_app_title">คุณชอบแอปนี้หรือไม่?</string>
+    <string name="str_rate_rate_description">เราจะดีใจมากหากคุณสามารถให้คะแนนเราได้</string>
+    <string name="str_rate_give_us_5_stars">ที่ดีที่สุดที่เราสามารถได้รับ :”></string>
+    <string name="str_rate_rate_us">ให้เราคะแนน</string>
+    <string name="str_rate_feedback_content_require">คำติชมของคุณต้องมีอย่างน้อย %1$d ตัวอักษร</string>
+    <string name="str_rate_rating_description_default">เราจะดีใจมากหากคุณสามารถให้คะแนนเราได้</string>
+    <string name="str_rate_oh_no">โอ้ ไม่!</string>
+    <string name="str_rate_thank_you">ขอบคุณ!</string>
+    <string name="str_rate_love_you_so_much">รักคุณมาก!</string>
+    <string name="str_rate_rating_description_low">กรุณาให้คำแนะนำบางอย่าง</string>
+    <string name="str_rate_rating_description_high">ขอบคุณสำหรับคำแนะนำของคุณ</string>
+    <string name="str_rate_rate_on_google_play">ให้คะแนนบน Google Play</string>
+    <string name="str_rate_crashes_bugs">การล้มเหลวและข้อบกพร่อง</string>
+    <string name="str_rate_others">อื่นๆ</string>
+    <string name="str_rate_suggestion">ข้อเสนอ</string>
+    <string name="str_rate_question_show_rate">คุณคิดว่าแอปนี้มีประโยชน์หรือไม่?</string>
+    <string name="str_rate_can_not_show_rate">ไม่ ไม่จริง</string>
+    <string name="str_rate_confirm_show_rate">ใช่ ฉันชอบมัน</string>
+    <string name="str_rate_content_rate_1_star">เราจะร้องไห้</string>
+    <string name="str_rate_content_rate_2_star">เศร้ามาก</string>
+    <string name="str_rate_content_rate_3_star">เราจะปรับปรุงแอปของเรา</string>
+    <string name="str_rate_content_rate_4_star">เราจะพยายามที่จะได้รับ 5 ดาวของคุณ</string>
+    <string name="str_rate_content_rate_5_star">ขอบคุณสำหรับคำแนะนำของคุณ</string>
+    <string name="str_rate_content_tag_rating">การล้มเหลวและข้อบกพร่อง, คุณลักษณะข้อผิดพลาด, โฆษณามากเกินไป, อื่นๆ</string>
+
+</resources>

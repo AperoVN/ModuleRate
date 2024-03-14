@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_rate_upload_photos">ఫోటోలను అప్‌లోడ్ చేయండి</string>
+    <string name="str_rate_submit">సమర్పించు</string>
+    <string name="str_rate_feedback_content_hint">మీ అభిప్రాయాన్ని ఇక్కడ నమోదు చేయండి! (కనీసం %1$d అక్షరాలు)</string>
+    <string name="str_rate_feedback_description">బగ్ కనుగొన్నారా? సూచన ఉందా? క్రింది ఫారమ్‌ను నింపండి మరియు మేము చూడగలము!</string>
+    <string name="str_rate_feedback_title">మాకు కొన్ని ఫీడ్‌బ్యాక్‌ను పంపండి!</string>
+    <string name="str_rate_rate_app_title">మీకు అప్లికేషన్ నచ్చిందా?</string>
+    <string name="str_rate_rate_description">మేము మీకు రేటింగ్ ఇవ్వడానికి తక్కువ మీకు అనుకూలంగా ఉంటాము</string>
+    <string name="str_rate_give_us_5_stars">మేము పొందగలిగే అత్యంత మంచిది:”></string>
+    <string name="str_rate_rate_us">మాకు రేటింగ్ ఇవ్వండి</string>
+    <string name="str_rate_feedback_content_require">మీ అభిప్రాయాన్ని నమోదు చేయడంలో కనీసం %1$d అక్షరాలు కావాలి</string>
+    <string name="str_rate_rating_description_default">మేము మీకు రేటింగ్ ఇవ్వడానికి తక్కువ మీకు అనుకూలంగా ఉంటాము</string>
+    <string name="str_rate_oh_no">ఓ, లేదు!</string>
+    <string name="str_rate_thank_you">ధన్యవాదాలు!</string>
+    <string name="str_rate_love_you_so_much">మీకు చాలా ప్రేమిస్తాం!</string>
+    <string name="str_rate_rating_description_low">దయచేసి మేము కొన్ని ఫీడ్‌బ్యాక్ విడుదల చేయండి</string>
+    <string name="str_rate_rating_description_high">మీ ఫీడ్‌బ్యాక్ కోసం ధన్యవాదాలు</string>
+    <string name="str_rate_rate_on_google_play">Google Play లో రేటింగ్ చేయండి</string>
+    <string name="str_rate_crashes_bugs">దారుణాలు మరియు బగ్‌లు</string>
+    <string name="str_rate_others">ఇతరములు</string>
+    <string name="str_rate_suggestion">సూచన</string>
+    <string name="str_rate_question_show_rate">ఈ అనువర్తనం సహాయకమేనా?</string>
+    <string name="str_rate_can_not_show_rate">కాదు. వాస్తవంగా కాదు</string>
+    <string name="str_rate_confirm_show_rate">అవును. నాకు ఇష్టం</string>
+    <string name="str_rate_content_rate_1_star">మేము అలగిలిస్తాము</string>
+    <string name="str_rate_content_rate_2_star">చాలా ఆకట్టుగా</string>
+    <string name="str_rate_content_rate_3_star">మేము మా అనువర్తనాన్ని మెరుగుపరచండి</string>
+    <string name="str_rate_content_rate_4_star">మేము మీ ఐదు నకిలీ చేయాలని ప్రయత్నిస్తున్నాము</string>
+    <string name="str_rate_content_rate_5_star">మీ ఫీడ్‌బ్యాక్ కోసం ధన్యవాదాలు</string>
+    <string name="str_rate_content_tag_rating">దారుణాలు మరియు బగ్‌లు, తప్పు లక్షణం, చాలా మరియు ప్రకటనలు, ఇతరములు</string>
+
+</resources>
