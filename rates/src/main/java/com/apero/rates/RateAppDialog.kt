@@ -102,13 +102,7 @@ internal class RateAppDialog : BaseDialogBinding<RateDialogRateAppBinding>() {
                                 context,
                                 hasActivityResult = true,
                             )
-                        ) {
-                            if (it.resultCode == Activity.RESULT_CANCELED) {
-                                dismiss()
-                            } else {
-                                invokeSuccess(true)
-                            }
-                        }
+                        ) { invokeSuccess(true) }
                     }
                 }
             }

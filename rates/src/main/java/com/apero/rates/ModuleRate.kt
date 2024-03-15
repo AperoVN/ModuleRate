@@ -39,12 +39,12 @@ object ModuleRate {
         ChooseRateBottomSheet()
             .setOnCloseRateListener { resultListener(false) }
             .setOnShowRateListener { isSatisfied, chooseDialog ->
+                chooseDialog.dismiss()
                 RateAppDialog()
                     .setRateSatisfied(isSatisfied)
                     .setOnRateSuccessfully { isRated, dialog ->
                         resultListener(isRated)
                         dialog.dismiss()
-                        chooseDialog.dismiss()
                     }.show(fm)
             }.show(fm)
     }
