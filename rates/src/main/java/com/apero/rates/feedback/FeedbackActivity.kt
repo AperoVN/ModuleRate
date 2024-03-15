@@ -105,7 +105,12 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
             viewModel.removeMedia(item)
         }
         suggestionAdapter.setOnClickListener { item, _ ->
-            viewModel.setClickSuggestion(item)
+//            viewModel.setClickSuggestion(item)
+            var currentText = binding.edtFeedback.text?.toString() ?: ""
+            val labelSelected = item.label.getBy(this).toString()
+            currentText = if (currentText.isEmpty()) labelSelected else "$currentText\n${labelSelected.trim()}"
+            binding.edtFeedback.setText(currentText.trim())
+            binding.edtFeedback.setSelection(binding.edtFeedback.length())
         }
         binding.txtSubmit.setOnClickListener {
             val listSuggestion = viewModel.listSuggestion.value.filter { it.isSelected }
@@ -123,26 +128,6 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
         binding.edtFeedback.doOnTextChanged { str, _, _, _ ->
             viewModel.updateContentLength(str?.trim()?.length ?: 0)
         }
-        viewModel.listSuggestion
-            .distinctUntilChanged { old, new -> old.count { it.isSelected } == new.count { it.isSelected } }
-            .onEach { list ->
-                var currentText = binding.edtFeedback.text?.toString() ?: ""
-                val listUnselected = list.filterNot { it.isSelected }
-                val listSelected = list.filter { it.isSelected }
-                listUnselected.onEach {
-                    val label = it.label.getBy(this).toString()
-                    if (currentText.contains(label)) {
-                        currentText = currentText.replaceFirst(label, "")
-                    }
-                }
-                listSelected.onEach {
-                    val label = it.label.getBy(this).toString()
-                    if (!currentText.contains(label)) {
-                        currentText = "$currentText $label"
-                    }
-                }
-                binding.edtFeedback.setText(currentText.trim())
-            }.launchIn(lifecycleScope)
 //        binding.layoutContent.setOnTouchListener { _, _ ->
 //            hideKeyboard(binding.edtFeedback)
 //            true
@@ -172,7 +157,7 @@ internal class FeedbackActivity : BindingActivity<RateActivityFeedbackBinding>()
 
         viewModel.listMedia
             .combine(viewModel.contentLength) { list, length ->
-                list.isNotEmpty() || length >= MIN_TEXT
+                list.filterIsInstance<ItemMedia.Image>().isNotEmpty() || length >= MIN_TEXT
             }.flowWithLifecycle(lifecycle)
             .distinctUntilChanged()
             .onEach { isEnableSubmit ->

@@ -4,11 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/rate_background_top_radius_24"
-    android:padding="@dimen/space_16">
+    android:paddingBottom="@dimen/space_16">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/space_16" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/space_16" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lavCanRate"
         android:layout_width="0dp"
+        android:layout_marginTop="@dimen/space_16"
         android:layout_height="0dp"
         app:layout_constraintDimensionRatio="133:133"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/space_4"
+        android:layout_margin="@dimen/space_6"
         android:src="@drawable/ic_rate_close"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -38,8 +54,8 @@
         android:textAppearance="@style/Font.DMSan.700"
         android:textColor="@color/clr_text"
         android:textSize="@dimen/text_size_16"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@id/lavCanRate" />
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -58,7 +74,7 @@
         android:textColor="@color/clr_text"
         android:textSize="@dimen/text_size_14"
         app:layout_constraintEnd_toStartOf="@id/btnSatisfied"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toBottomOf="@id/tvDescription" />
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -69,14 +85,14 @@
         android:layout_marginTop="@dimen/space_16"
         android:background="@drawable/rate_bg_button_rate_selector"
         android:drawableTop="@drawable/ic_rate_satisfied"
-        android:lines="2"
         android:gravity="center"
+        android:lines="2"
         android:padding="@dimen/space_8"
         android:text="@string/str_rate_confirm_show_rate"
         android:textAppearance="@style/Font.DMSan.500"
         android:textColor="@color/clr_text"
         android:textSize="@dimen/text_size_14"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
         app:layout_constraintStart_toEndOf="@id/btnUnsatisfied"
         app:layout_constraintTop_toBottomOf="@id/tvDescription" />
 </androidx.constraintlayout.widget.ConstraintLayout>

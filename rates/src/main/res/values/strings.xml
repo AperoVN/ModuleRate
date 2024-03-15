@@ -21,7 +21,7 @@
     <string name="str_rate_others">Others</string>
     <string name="str_rate_suggestion">Suggestion</string>
     <string name="str_rate_question_show_rate">Do you think this App is helpful?</string>
-    <string name="str_rate_can_not_show_rate">No.Not Really</string>
+    <string name="str_rate_can_not_show_rate">No.Not really</string>
     <string name="str_rate_confirm_show_rate">Yes. I liked it</string>
     <string name="str_rate_content_rate_1_star">We\'ll cry</string>
     <string name="str_rate_content_rate_2_star">So sad</string>
