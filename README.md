@@ -1,12 +1,12 @@
 # ModuleRate
 ## How to use
 ```
-  implementation 'apero:module.rate:1.0.3'
+  implementation 'apero:module.rate:1.0.7'
 ```
 
 Application:
 ```
-  ModuleRate.install(this, BuildConfig.VERSION_CODE, BuildConfig.VERSION_NAME)
+  ModuleRate.install(this, BuildConfig.VERSION_CODE, BuildConfig.VERSION_NAME,getString(R.string.appname))
   
   ModuleRate.setOnDismissAppOpenListener {
       AppOpenManager.getInstance().disableAdResumeByClickAction()
